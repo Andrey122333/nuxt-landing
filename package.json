@@ -1,0 +1,27 @@
+{
+  "name": "nir3-nuxt-landing",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Landing page кафе 'Три Фреймворка' (Nuxt 3 SSR)",
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev --port 3002",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview --port 3002",
+    "start": "node .output/server/index.mjs",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^3.10.0",
+    "vue": "^3.4.15"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^1.0.8",
+    "@nuxtjs/google-fonts": "^3.1.3",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
