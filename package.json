@@ -5,10 +5,10 @@
   "description": "Landing page кафе 'Три Фреймворка' (Nuxt 3 SSR)",
   "type": "module",
   "scripts": {
-    "dev": "nuxt dev --port 3002",
+    "dev": "nuxt dev --port 3000",
     "build": "nuxt build",
     "generate": "nuxt generate",
-    "preview": "nuxt preview --port 3002",
+    "preview": "nuxt preview --port 3000",
     "start": "node .output/server/index.mjs",
     "postinstall": "nuxt prepare"
   },
