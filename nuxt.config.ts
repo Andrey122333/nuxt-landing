@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2024-01-01',
+  compatibilityDate: '2025-01-01',
   
   // Nuxt DevTools
   devtools: { enabled: true },
@@ -48,7 +48,7 @@ export default defineNuxtConfig({
     },
   },
   
-  // Vite 6: Оптимизация сборки
+  // Vite: Оптимизация сборки
   vite: {
     build: {
       target: 'es2022',
@@ -64,7 +64,7 @@ export default defineNuxtConfig({
   // Runtime config
   runtimeConfig: {
     public: {
-      frameworkVersion: '3.10+',
+      frameworkVersion: '4.4+',
     }
   }
 })
